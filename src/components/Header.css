@@ -1,0 +1,46 @@
+.heading {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333; /* Default color for the text */
+    margin-top: 40px;
+    font-family: 'Lora', serif;
+    margin-bottom: 50px;
+    
+  }
+  .back{
+  
+ background-color: rgb(181, 253, 199);
+ background-color: rgb(211, 248, 243);
+/* Creates the square pattern by defining the size of the gradient */
+
+/* Makes it a circle */
+background: linear-gradient(135deg, #e8c4f8, #b4e7eb); /* Purple gradient */
+background: linear-gradient(135deg, #eea0b7, #a1e1e6,#f1a8be); /* Purple gradient */
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds depth to the bubble */
+box-shadow: 4px 4px 12px rgba(26, 24, 24, 0.8);
+
+
+
+
+  }
+.heading .highlight {
+    /* Bright color for highlight */
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    /* border: 2px solid #af05c5; Adds a solid border */
+    padding: 5px 10px; /* Adds spacing around the text */
+    border-radius: 20px; /* Rounded edges for a modern look */
+   
+  
+    transition: all 0.3s ease-in-out;
+    background-color:rgb(67, 102, 119);
+    color: #fff; 
+    box-shadow: 6px 6px 12px rgba(168, 1, 118, 0.8);
+  }
+  
+  .heading .highlight:hover {
+    background-color: #fff5e6;
+    color: #74068f;
+    box-shadow: 2px 2px 8px rgba(255, 87, 51, 0.5);
+  }

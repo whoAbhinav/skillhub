@@ -1,0 +1,11 @@
+/* Navbar.css */
+.navbar-nav .nav-link {
+    color: black !important; /* Ensures that text color is black */
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(75, 70, 70) !important; /* Ensures hover color is also black */
+}
+.navbar{
+    box-shadow: 4px 4px 12px rgba(78, 74, 74, 0.8);
+}
